@@ -11,11 +11,12 @@
 	overflow: hidden;
 	background-color: #FF791F;
 }
-
+/*Aligning the header*/
 li.header_list{
 	float: left;
 }
 
+/*Formatting the text in the header*/
 li.header_list a, .dropbtn {
 	display: inline-block;
 	color: white;
@@ -29,6 +30,7 @@ li.header_list a:hover, .dropdown:hover .dropbtn {
 	background-color: #FC5491;
 }
 
+/*Formatting the dropdown*/
 li.dropdown {
 	display: inline-block;
 }
@@ -49,6 +51,7 @@ li.dropdown {
 	text-align: left;
 }
 
+/*Change the color if it is hovered on*/
 .dropdown-content a:hover {
 	background-color: #F59EBE;
 	}
@@ -87,7 +90,7 @@ p,li,div{
 body {
 	background: url("images/background.jpg") center/cover;
 	height:100%;
-	width:1199px;
+	width:95%;
 	position:absolute;
 	padding:0;
 	margin:0;
@@ -95,7 +98,7 @@ body {
 /*Centering text*/
 .text_start{
 	margin: 0 275px 60px;
-	padding: 0px 20px 0px 20px;
+	padding: 0px 20px 0px 30px;
 }
 
 /*Formatting the starting jazz image*/
@@ -103,23 +106,19 @@ body {
 	padding:80px 0 10px 0;
 	height:500px;}
 
+/*Formatting for images and text side by side*/
 .with_img {
 	display: flex;
 	height: 100px;
 	align-items: center;
 	margin-top:10%;
 	margin-right: 2%;
-	margin-bottom:15%;
-}
-
-img.with_img{
-	margin-left:50px
-	
+	margin-bottom:15%
 }
 
 /*Formatting the iframes*/
 iframe{
-	width:110%;
+	width:700px;
 	height:400px;
 }
 
@@ -133,6 +132,7 @@ footer {
 	color: white;
 }
 
+/*Formatting images in the footer*/
 footer img{
 	width:100px;
 	margin-right:10px;
@@ -146,7 +146,7 @@ table, th, td{
 
 /*Formatting table text and size*/
 table{
-	width:110%;
+	width:750px;
 }
 
 th{
